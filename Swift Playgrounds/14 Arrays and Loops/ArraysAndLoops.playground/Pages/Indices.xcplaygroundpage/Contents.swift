@@ -24,6 +24,8 @@ devices[0]
  - experiment: Try to get the item at index `4` in the list. Open the console for more information about the error.
 */
 //TESTETESTETS
+devices[4]
+//its supposed to be devices[3] !
 
 
 //: Next find out how many values an array contains.\

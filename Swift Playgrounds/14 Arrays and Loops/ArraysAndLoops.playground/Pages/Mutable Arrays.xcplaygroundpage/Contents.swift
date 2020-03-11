@@ -9,6 +9,6 @@ transitOptions = ["rowboat", "paddle board", "submarine"]
 //: But you can’t change the type of items the array holds. Just like all variables, declaring a mutable array with `var` lets you change the values to whatever you’d like as long as they’re the same type. It’s like someone who's a picky eater declaring that they’ll eat anything as long as it’s some kind of pizza.
 //:
 //: This line would give an error because the items are `Int` values:
-//transitOptions = [44, 71, 16]
+transitOptions = ["44", "71", "16"]
 //: Move on to change the contents of a mutable array without replacing the whole list.\
 //: [Previous](@previous)  |  page 8 of 17  |  [Next: Adding Items](@next)
