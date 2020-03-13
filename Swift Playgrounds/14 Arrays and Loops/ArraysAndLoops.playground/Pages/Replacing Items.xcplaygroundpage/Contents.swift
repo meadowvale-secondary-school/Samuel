@@ -1,10 +1,3 @@
-/*:
- ## Replacing Items
- 
- You’ve seen how to add and remove items from a mutable array.  What if you need to replace one item with another?
-
- Earlier, you saw how to access an item in an array by using its index:
- */
 var flavors = ["Chocolate", "Vanilla", "Strawberry", "Pistachio", "Rocky Road"]
 
 let firstFlavor = flavors[0] // Remember, the first item is at index 0
@@ -27,7 +20,8 @@ let newFirstFlavor = flavors[0]
  If you try to use an index that is not contained in the array, you will get an error. You can only replace values in a mutable array using subscripts, you can’t add or remove things.
  - experiment: In the statement below, what’s the highest number you can set the subscript to without receiving an error. Why is that the highest number you can use?
 */
-flavors[1] = "Maple Walnut"
-
+flavors[4] = "Maple Walnut"
+//The reason that the highest index number is 4 is because 0 is counted as the original index number. Instead of being a null value, 0 == 1 for
+//all intents and purposes.
 //: Next, review what you’ve learned.\
 //: [Previous](@previous)  |  page 11 of 17  |  [Next: Wrapup](@next)
