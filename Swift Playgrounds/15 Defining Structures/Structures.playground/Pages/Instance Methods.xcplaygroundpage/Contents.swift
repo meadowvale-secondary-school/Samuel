@@ -23,6 +23,7 @@ let otherRectangle = Rectangle(width: 10, height: 20)
 
 rectangle.isBiggerThan(otherRectangle)
 otherRectangle.isBiggerThan(rectangle)
+print("Hello")
 
 
 //: - callout(Exercise): Simplify the `biggerThan` method by creating a calculated property named `area` for the rectangle struct and then using the calculated property inside the `isBiggerThan()` method.
