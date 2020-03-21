@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../Downloads/student-4/12 Instances/InstancesMethodsProperties.playground">
+      location = "self:Actions and Outlets.xcodeproj">
    </FileRef>
 </Workspace>
