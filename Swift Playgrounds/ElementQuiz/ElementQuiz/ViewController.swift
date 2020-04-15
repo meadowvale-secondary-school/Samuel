@@ -17,7 +17,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIView!
     
-    @IBAction func answerLabel(_ sender: Any) {
+    @IBOutlet weak var answerLabel: UILabel!
+    
+    @IBAction func gotoNextElement(_ sender: Any) {
     }
+    
+    
+    
 }
 
