@@ -42,6 +42,7 @@
                                         <state key="normal" title="Show Answer"/>
                                         <connections>
                                             <action selector="answerLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kIF-3o-cRD"/>
+                                            <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="blX-Cg-9p1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDe-Sj-n5P">
