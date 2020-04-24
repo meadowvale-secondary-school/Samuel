@@ -15,10 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    let meowSound = SimpleSound(named: "meow")
+    
     @IBOutlet weak var animalSoundLabel: UILabel!
     
     @IBAction func catButtonTapped(_ sender: Any) {
         animalSoundLabel.text = "Meow!"
+        meowSound.play()
     }
     
     @IBAction func cowButtonTapped(_ sender: Any) {

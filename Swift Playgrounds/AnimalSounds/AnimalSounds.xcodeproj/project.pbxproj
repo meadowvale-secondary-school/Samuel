@@ -15,7 +15,10 @@
 		3F177B96245322A1003EBEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F177B94245322A1003EBEE5 /* LaunchScreen.storyboard */; };
 		3F177B9E245328E7003EBEE5 /* The Clown (Episode C)-6o3s3kg8aQg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F177B9D245328E7003EBEE5 /* The Clown (Episode C)-6o3s3kg8aQg.mp3 */; };
 		3F177BA0245328F3003EBEE5 /* ＳＴＩＬＬ　 ＴＩＰＰＩＮ°-WDWPVXxJOi8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F177B9F245328F3003EBEE5 /* ＳＴＩＬＬ　 ＴＩＰＰＩＮ°-WDWPVXxJOi8.mp3 */; };
-		3F177BA224532905003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F177BA124532905003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 */; };
+		3F177BA424532EC0003EBEE5 /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F177BA324532EC0003EBEE5 /* SimpleSound.swift */; };
+		3F177BA62453307C003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F177BA52453307C003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 */; };
+		3F177BA8245330DE003EBEE5 /* bruh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F177BA7245330DE003EBEE5 /* bruh.mp3 */; };
+		3F177BAA24533199003EBEE5 /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3F177BA924533199003EBEE5 /* meow.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +32,10 @@
 		3F177B97245322A1003EBEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F177B9D245328E7003EBEE5 /* The Clown (Episode C)-6o3s3kg8aQg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The Clown (Episode C)-6o3s3kg8aQg.mp3"; path = "../../../../../Desktop/The Clown (Episode C)-6o3s3kg8aQg.mp3"; sourceTree = "<group>"; };
 		3F177B9F245328F3003EBEE5 /* ＳＴＩＬＬ　 ＴＩＰＰＩＮ°-WDWPVXxJOi8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ＳＴＩＬＬ　 ＴＩＰＰＩＮ°-WDWPVXxJOi8.mp3"; path = "../../../../../Desktop/ＳＴＩＬＬ　 ＴＩＰＰＩＮ°-WDWPVXxJOi8.mp3"; sourceTree = "<group>"; };
-		3F177BA124532905003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3"; path = "../../../../../Desktop/Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3"; sourceTree = "<group>"; };
+		3F177BA324532EC0003EBEE5 /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		3F177BA52453307C003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3"; sourceTree = "<group>"; };
+		3F177BA7245330DE003EBEE5 /* bruh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bruh.mp3; sourceTree = "<group>"; };
+		3F177BA924533199003EBEE5 /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,10 @@
 				3F177B94245322A1003EBEE5 /* LaunchScreen.storyboard */,
 				3F177B9F245328F3003EBEE5 /* ＳＴＩＬＬ　 ＴＩＰＰＩＮ°-WDWPVXxJOi8.mp3 */,
 				3F177B9D245328E7003EBEE5 /* The Clown (Episode C)-6o3s3kg8aQg.mp3 */,
-				3F177BA124532905003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 */,
+				3F177BA52453307C003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 */,
+				3F177BA7245330DE003EBEE5 /* bruh.mp3 */,
+				3F177BA324532EC0003EBEE5 /* SimpleSound.swift */,
+				3F177BA924533199003EBEE5 /* meow.m4a */,
 				3F177B97245322A1003EBEE5 /* Info.plist */,
 			);
 			path = AnimalSounds;
@@ -134,10 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F177BA224532905003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 in Resources */,
+				3F177BAA24533199003EBEE5 /* meow.m4a in Resources */,
 				3F177B96245322A1003EBEE5 /* LaunchScreen.storyboard in Resources */,
 				3F177B93245322A1003EBEE5 /* Assets.xcassets in Resources */,
+				3F177BA62453307C003EBEE5 /* Tuamie - Who Am I to Tell You Pt3-gfP6NwBzZpk.mp3 in Resources */,
 				3F177BA0245328F3003EBEE5 /* ＳＴＩＬＬ　 ＴＩＰＰＩＮ°-WDWPVXxJOi8.mp3 in Resources */,
+				3F177BA8245330DE003EBEE5 /* bruh.mp3 in Resources */,
 				3F177B9E245328E7003EBEE5 /* The Clown (Episode C)-6o3s3kg8aQg.mp3 in Resources */,
 				3F177B912453229E003EBEE5 /* Main.storyboard in Resources */,
 			);
@@ -153,6 +164,7 @@
 				3F177B8E2453229E003EBEE5 /* ViewController.swift in Sources */,
 				3F177B8A2453229E003EBEE5 /* AppDelegate.swift in Sources */,
 				3F177B8C2453229E003EBEE5 /* SceneDelegate.swift in Sources */,
+				3F177BA424532EC0003EBEE5 /* SimpleSound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

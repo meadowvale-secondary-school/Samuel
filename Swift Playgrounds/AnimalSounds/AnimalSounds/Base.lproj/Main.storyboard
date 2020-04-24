@@ -15,28 +15,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k9D-FS-E8e">
-                                <rect key="frame" x="16" y="125" width="287" height="176"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k9D-FS-E8e">
+                                <rect key="frame" x="30" y="125" width="270" height="179"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Sounds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcM-P3-WQe">
-                                        <rect key="frame" x="66" y="0.0" width="155.5" height="29"/>
+                                        <rect key="frame" x="57.5" y="0.0" width="155.5" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="BDI-PH-Dkk">
-                                        <rect key="frame" x="0.0" y="39" width="287" height="98"/>
+                                        <rect key="frame" x="1" y="39" width="268" height="101"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAS-TX-4Df">
-                                                <rect key="frame" x="0.0" y="0.0" width="77" height="98"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                                <rect key="frame" x="0.0" y="12" width="58" height="77"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
                                                 <state key="normal" title="😼"/>
                                                 <connections>
                                                     <action selector="catButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0BW-6i-LZd"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2n-4D-3L1">
-                                                <rect key="frame" x="105" y="0.0" width="77" height="98"/>
+                                                <rect key="frame" x="86" y="1.5" width="77" height="98"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <state key="normal" title="🐮"/>
                                                 <connections>
@@ -44,7 +44,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecy-0y-h4n">
-                                                <rect key="frame" x="210" y="0.0" width="77" height="98"/>
+                                                <rect key="frame" x="191" y="1.5" width="77" height="98"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                 <state key="normal" title="🐶"/>
                                                 <connections>
@@ -54,7 +54,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap an animal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bu4-Gh-gbo">
-                                        <rect key="frame" x="73" y="147" width="141" height="29"/>
+                                        <rect key="frame" x="64.5" y="150" width="141" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -63,6 +63,12 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="k9D-FS-E8e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="35W-Bt-TbK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k9D-FS-E8e" secondAttribute="trailing" constant="20" id="OrI-x0-aUi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="k9D-FS-E8e" secondAttribute="bottom" constant="176" id="jjG-wA-csa"/>
+                            <constraint firstItem="k9D-FS-E8e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="wSE-9a-zua"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
