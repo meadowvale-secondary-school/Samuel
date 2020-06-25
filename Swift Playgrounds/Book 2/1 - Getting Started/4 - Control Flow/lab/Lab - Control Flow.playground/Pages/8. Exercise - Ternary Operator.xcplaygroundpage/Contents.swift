@@ -6,7 +6,7 @@
 let number1 = 14
 let number2 = 25
 
-var largest: Int
+var largest = 0
 if number1 > number2 {
     largest = number1
 } else {

@@ -20,6 +20,12 @@ let hasVegan = true
 let temp = 82
 let isRaining = true
 let isSunny = true
-
+let isNiceWeather = false
+if(isNiceWeather = true){
+    print("I'm going for a walk!")
+}
+else{
+    print("RIP")
+}
 
 //: [Previous](@previous)  |  page 4 of 9  |  [Next: App Exercise - Target Heart Rate](@next)
